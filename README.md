@@ -1,20 +1,22 @@
 # Thematic Campaign Recommendation Based on User Preferences with K-Means Clustering and Regression
 
 ## Project Overview
-The project has been done for Python Individual Assignment by RevoU. Inspired by datasets provided by RevoU (thelook e-commerce), I did the Exploratory Data Analysis (EDA) in SQL to understand the revenue and profit growth of each product category and understand the customer retention through cohort analysis, as well as using CTE and Window functions in SQL. 
+The project has been done for Python Individual Assignment by RevoU. I was assigned to be a Data Analyst to do data cleaning, descriptive statistics, trend analysis, cluster analysis with K-Means clustering, and churn analysis with regression. All of the tasks have been done by using python, as well as the data visualization by using matplotlib and seaborn. The project focused to analyze the data of Indonesian investment start up company that users can buy and sell mutual funds.
 
 ## Project Summary
-Based on the business problem about potential crisis in 2023, the management tends to deprioritized some categories faced the lowest revenue and profit growth. From the data exploration and through the BCG Matrix, I found that socks need to be deprioritized due to low market growth (9.85%) and market share (1%). It also needs collaboration with other teams to increase customer retention rate (only 3% - 11% in 2022) where our retention rate is highly decreased in the first month (1) after first purchase month (0).
+Based on the business problem, the Marketing Team need thematic campaign for next month based on user preferences. For budget efficiency, customer segmentation is needed to run targeted campaign. From the data exploration, I found that there are 4 clusters of customer. Based on benefit analysis, we can gain up to Rp11M expected return based on customer segmentation.
 
 ## Deck Link
-[Optimize Product Category and Analyze Customer Retention with Cohort Analysis of TheLook Commerce](https://drive.google.com/drive/folders/1tDtmRv7WIxSUpUx0X_VbkTc8XwNTiOgz)
+[Thematic Campaign Recommendation Based on User Preferences with K-Means Clustering and Regression](https://drive.google.com/file/d/1Y5gTkVWP2WWjcvGUgzESEn9RlqoqBkt0/view?usp=sharing)
 
 ## Project Methodology
-1. Connect datasets
-2. Explore the datasets using join function, aggregate function, CTE function, and Window function
-3. Create cohort analysis
-4. Visualize with Looker Studio
-5. Generate insights and recommendations
+1. Import library and data preparation
+2. Data cleaning
+3. Explore the datasets to understand the descriptive statistics and trend analysis
+4. Customer segmentation with k-means clustering
+5. Generate insights of each cluster
+6. Churn analysis
+7. Benefit cost analysis and list top 30% users of each cluster
 
 ## Tools
-1. [SQL](https://console.cloud.google.com/bigquery?sq=113264810651:b23e8bfc30c34425a5e040b81169e589&project=fresh-electron-377104&ws=!1m4!1m3!8m2!1s113264810651!2sb23e8bfc30c34425a5e040b81169e589)
+1. [Python](https://colab.research.google.com/drive/16HjWB7XxQAoM97qtDePay6xXQp_KAUWG#scrollTo=Pq3ARncjIuby)
